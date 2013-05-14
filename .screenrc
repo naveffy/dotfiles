@@ -1,0 +1,11 @@
+# dot.screenrc 2005/01/02
+# Kazumasa Watanabe
+
+defencoding utf-8
+escape ^z^z
+hardstatus alwayslastline "screen | %=%Y/%m/%d %c | %w"
+vbell off
+shell zsh
+startup_message off
+#autodetach on
+

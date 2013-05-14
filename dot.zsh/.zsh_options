@@ -1,0 +1,43 @@
+##------------------------------------##
+## dot.zshoptions                     ##
+## One_Liner one_liner@angel.ne.jp    ##
+## last updated : 2003/06/23          ##
+##------------------------------------##
+
+echo "Loading dot.zsh_options..."
+
+# オプションを設定
+
+setopt auto_cd				# cdコマンドの省略
+setopt auto_menu			# tabキーの連打で自動補完
+setopt correct				# コマンドのスペルチェック
+setopt auto_name_dirs		# 
+setopt auto_remove_slash	# dir名の末尾の/を除く
+setopt hist_ignore_dups		# 直前と同じコマンドは履歴に追加しない
+setopt hist_ignore_space	# コマンドの先頭がスペースの場合履歴に追加しない
+setopt prompt_subst			# プロンプトにエスケープシーケンスを通す
+setopt pushd_ignore_dups	# dirスタックに同じdirは追加しない
+setopt auto_pushd			# cdコマンドで古いディレクトリをディレクトリスタックに積む
+setopt pushd_ignore_dups	# 重複したディレクトリスタックを排除
+setopt rm_star_silent		# rmの警告を表示しない
+setopt extended_glob		# #, ~, ^ の 3 文字を正規表現として扱う
+setopt list_types			# 補完リストで種別マークをつける
+setopt no_beep				# ビープ音を鳴らさない
+setopt always_last_prompt	# 
+setopt cdable_vars			# cdコマンドの引数が~に続くとみなす
+setopt sh_word_split		# 
+setopt auto_param_keys		# カッコの対応などを自動的に補完する
+setopt brace_ccl			# {a-c} を a b c に展開する機能
+setopt auto_param_slash		# dir名の補完で末尾の/を自動的に付加
+setopt print_eightbit		# 8bitを通す(日本語のファイル名が使える)
+setopt share_history		# 履歴の共有
+#setopt menucomplete		# 補完対象が複数ある場合, 最初に一致するものを補完
+#setopt bsd_echo			# 内部コマンドのechoをBSD互換にする
+#setopt correct				# 補完してくれるようになる
+#setopt correct_all			# コマンド以外に引数に対しても補完機能を適用する
+#setopt extended_history	# 履歴にzshの開始・終了時間を書き込む
+
+#オプションの非設定
+
+#unsetopt auto_list
+unsetopt noglob

@@ -1,0 +1,29 @@
+##------------------------------------##
+## dot.zsh_common                     ##
+## One_Liner one_liner@angel.ne.jp    ##
+## last updated : 2004/03/09          ##
+##------------------------------------##
+
+echo "Loading dot.zsh_common..."
+
+calias h	'history'
+calias sl	'ls'
+calias ls	'ls -F --color=auto'
+calias la	'ls -aF --color=auto'
+calias ll	'ls -alF --color=auto'
+#calias ls	'ls -F'
+#calias la	'ls -aF'
+#calias ll	'ls -lF'
+calias cm	'chmod a+x'
+calias x	'exit'
+calias Emacs	'/Applications/Emacs.app/Contents/MacOS/Emacs'
+alias pd='popd'
+alias gd='dirs -v; echo -n "select number: "; read newdir; cd +"$newdir"'
+alias -g L='| less'
+alias -g H='| head'
+alias -g T='| tail'
+alias -g G='| grep'
+alias -g W='| wc'
+alias -g S='| sed'
+alias -g A='| awk'
+alias -g W='| wc'

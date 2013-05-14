@@ -1,0 +1,43 @@
+# dot.lscolors --- color_lsの色の設定をしてます。
+
+echo "Loading dot.zsh_lscolor..."
+
+# dir
+LS_COLORS="no=00:fi=00:di=35:ex=36:ln=34:bd=33:pi=35:so=35"
+
+# archive
+LS_COLORS="$LS_COLORS:*.rpm=31"
+LS_COLORS="$LS_COLORS:*.tar=31:*.gz=31:*.tgz=31:*.z=31:*.bz2=31"
+LS_COLORS="$LS_COLORS:*.lzh=31:*.zip=31"
+LS_COLORS="$LS_COLORS:*.RPM=01;31"
+LS_COLORS="$LS_COLORS:*.TAR=31:*.GZ=31:*.TGZ=31:*.Z=31:*.BZ2=31"
+LS_COLORS="$LS_COLORS:*.LZH=31:*.ZIP=31"
+
+# text
+#LS_COLORS="$LS_COLORS:*.txt=36"
+#LS_COLORS="$LS_COLORS:*.TXT=36"
+
+# program text
+LS_COLORS="$LS_COLORS:*.txc=32:*.c=32:*.h=32"
+LS_COLORS="$LS_COLORS:*.TXC=32:*.C=32:*.H=32"
+
+# extra text
+LS_COLORS="$LS_COLORS:*.nov=32"
+LS_COLORS="$LS_COLORS:*.htm=34:*.html=34"
+LS_COLORS="$LS_COLORS:*.NOV=32"
+LS_COLORS="$LS_COLORS:*.HTM=34:*.HTML=34"
+
+# multi media
+LS_COLORS="$LS_COLORS:*.mp3=35:*.mid=35:*.wav=35:*.mod=35"
+LS_COLORS="$LS_COLORS:*.avi=35:*.mov=35:*.mpg=35:*.mpeg=35"
+LS_COLORS="$LS_COLORS:*.MP3=35:*.MID=35:*.WAV=35:*.MOD=35"
+LS_COLORS="$LS_COLORS:*.AVI=35:*.MOV=35:*.MPG=35:*.MPEG=35"
+
+# graphics
+LS_COLORS="$LS_COLORS:*.jpg=33:*.jpeg=33:*.bmp=33:*.gif=33:*.png=33"
+LS_COLORS="$LS_COLORS:*.xpm=33:*.xbm=33:*.xwd=33:*.xcf=33"
+LS_COLORS="$LS_COLORS:*.JPG=33:*.JPEG=33:*.BMP=33:*.GIF=33:*.PNG=33"
+LS_COLORS="$LS_COLORS:*.XPM=33:*.XBM=33:*.XWD=33:*.XCF=33"
+
+# export
+export LS_COLORS
